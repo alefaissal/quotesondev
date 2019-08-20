@@ -19,7 +19,7 @@
     "jQuery": false,
     "$": false,
     "_": false,
-    "qod_api": false,
+    "qod_api": false,    //to accept the new global file
   },
   "env": {
     "es6": true,
