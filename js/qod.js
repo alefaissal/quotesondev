@@ -1,7 +1,7 @@
 (function($){
     $(function(){
         //TODO remove the line of code below, it is just here to help test
-        $('body').append('hello world II');
+       // $('body').append('hello world II');
 
         console.log(qod_api);
         //your ajax and other JS code will go here

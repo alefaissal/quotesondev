@@ -1,13 +1,97 @@
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
-body{
-	background: black;
+body {
+	// background: #222222;
+	font-family: 'Exo', sans-serif;
 }
+
 /* Posts and pages */
 
 //Front page
+.front-page-container {
+	max-width: 1100px;
+	margin: 0 auto;
+	font-family: 'Exo', sans-serif;
+}
 
+.front-page-logo {
+	width: 70%;
+	margin: 0 auto;
+
+	img {
+
+		height: 100px;
+		margin: 100px auto;
+	}
+}
+
+.front-page-content {
+	width: 70%;
+	margin: 0 auto;
+
+	.front-page-text {
+		font-size: 40px;
+		color: white;
+		text-align: justify;
+		font-size: 400;
+
+	}
+
+	.front-page-author-meta {
+		width: 100%;
+		display: flex;
+		justify-content: flex-start;
+		align-items: baseline;
+		margin: 30px 0 50px 0;
+
+		.front-page-author-name {
+			color: white;
+			font-size: 20px;
+			margin-right: 10px;
+		}
+
+		.front-page-author-link {
+			a {
+				text-decoration: none;
+				color: #64f864;
+				font-size: 20px;
+				font-weight: 50;
+
+				&:hover {
+					color: #00cc00;
+				}
+			}
+		}
+
+	}
+
+
+}
+
+.front-page-show-another {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	button {
+		width: fit-content;
+		padding: 20px;
+		border: solid 2px #00cc00;
+		color: #00cc00;
+		font-size: 20px;
+		background: #222222;
+		margin: 0 auto;
+		align-self: center;
+		box-shadow: none;
+		
+	}
+}
+
+.test-icon{
+	color: #00cc00;
+	font-size: 50px;
+	background: white;
+}
 
 
 
@@ -20,7 +104,7 @@ body{
 	margin: 0 0 $base__space-unit;
 }
 
-.updated:not(.published){
+.updated:not(.published) {
 	display: none;
 }
 

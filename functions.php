@@ -57,6 +57,9 @@ add_filter( 'stylesheet_uri', 'qod_minified_css', 10, 2 );
  */
 function qod_scripts() {
 	wp_enqueue_style( 'qod-style', get_stylesheet_uri() );
+	//to add link for google and fontawesome in header through a function
+	wp_enqueue_style('qod_fontawesome','http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+	wp_enqueue_style('qod-googlefont', 'https://fonts.googleapis.com/css?family=Exo&display=swap');
 
 	wp_enqueue_style('jquery');
 	wp_enqueue_script( 'qod-script', get_template_directory_uri() . '/build/js/qod.min.js', array('jquery'), '', true );
