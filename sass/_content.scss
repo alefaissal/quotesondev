@@ -285,6 +285,7 @@ body {
 		background: #222222;
 		border: #64f864 solid 1px;
 		color: white;
+
 		&:focus {
 			outline: none;
 			border: white solid 1px;
@@ -292,7 +293,7 @@ body {
 			color: white;
 		}
 	}
-	
+
 
 	.submit-button {
 		width: fit-content;
@@ -307,7 +308,7 @@ body {
 		box-shadow: none;
 
 
-		&:hover{
+		&:hover {
 			box-shadow: none;
 			color: white;
 		}
@@ -321,13 +322,15 @@ body {
 }
 
 //single navigation post
-.single-navigation-post{
+.single-navigation-post {
 	max-width: 900px;
 	margin: 0;
 	padding: 0 20px;
+
 	@media (min-width: 620px) {
 		margin: 0 auto;
 	}
+
 	a {
 		font-size: 20px;
 		text-decoration: none;
@@ -340,21 +343,44 @@ body {
 }
 
 //archive page
-.archive-page-title{
+.archive-page-title {
 	font-size: 40px;
+
 	@media (min-width: 620px) {
 		font-size: 50px;
 	}
 }
-.archive-page-text{
-	p{
+
+.archive-page-text {
+	p {
 		font-size: 15px;
 		text-align: justify;
+
 		@media (min-width: 620px) {
 			font-size: 20px;
 		}
-	
+
 	}
+}
+
+
+// 404  page
+
+
+.error404 {
+	//min-height: 100vh;
+		.four-page{
+			text-align:left;
+			@media (min-width: 1080px) {
+				text-align:center;
+			}
+			img{
+				//display: none;
+				width: 80%;
+			}
+	}
+	//background: url(../../images/404-quotes.png) center/cover;
+	// background-size: cover;
 }
 
 

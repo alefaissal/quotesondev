@@ -827,6 +827,14 @@ body {
     .archive-page-text p {
       font-size: 20px; } }
 
+.error404 .four-page {
+  text-align: left; }
+  @media (min-width: 1080px) {
+    .error404 .four-page {
+      text-align: center; } }
+  .error404 .four-page img {
+    width: 80%; }
+
 .sticky {
   display: block; }
 
