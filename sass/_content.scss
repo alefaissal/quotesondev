@@ -365,10 +365,7 @@ body {
 
 
 // 404  page
-
-
 .error404 {
-	//min-height: 100vh;
 		.four-page{
 			text-align:left;
 			@media (min-width: 1080px) {
@@ -376,11 +373,9 @@ body {
 			}
 			img{
 				//display: none;
-				width: 80%;
+				width: 60%;
 			}
 	}
-	//background: url(../../images/404-quotes.png) center/cover;
-	// background-size: cover;
 }
 
 
