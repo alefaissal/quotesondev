@@ -17,6 +17,15 @@
 		</div><!-- #page -->
 
 		<?php wp_footer(); ?>
-
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php echo esc_html( 'Primary Menu' ); ?></button>
+			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+			<p>
+				Brough to you by 
+				<a href="https://github.com/alefaissal">
+					Alex Faissal
+				</a>
+			</p>
+		</nav><!-- #site-navigation -->
 	</body>
 </html>

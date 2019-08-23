@@ -26,14 +26,18 @@
 		
 			<?php 
 			// chek if the url exist
-			elseif($source_url): ?>
+			elseif($source): ?>
 				<span class="source">,
 					<?php echo $source; ?>
 				</span>
 			<?php else: ?>
 				<span class="source"></span>
 
-			<?php endif; ?>
+		<?php endif; ?>
 	</div>	
 
 </article><!-- #post-## -->
+
+<?php if(is_home() || is_single()): ?>
+	<button type="button" id="new-quote-button">Show Me Another!</button>
+<?php endif; ?>

@@ -12,11 +12,14 @@ get_header(); ?>
 	<main id="main" class="site-main front-page-container" role="main">
 
 
-		<div class='front-page-logo'>
-			<a href="<?php echo get_home_url(); ?>">
-				<img src="<?php echo get_template_directory_uri(); ?>/images/qod-logo.svg" alt="quotes on dev logo">
+		<!-- <div class='front-page-logo'>
+			<a href="<?php //echo get_home_url(); ?>">
+				<img src="<?php //echo get_template_directory_uri(); ?>/images/qod-logo.svg" alt="quotes on dev logo">
 			</a>
-		</div>
+		</div> -->
+
+
+
 		<div class='front-page-content'>
 			<?php if (have_posts()) : ?>
 			<?php if (is_home() && !is_front_page()) : ?>
@@ -69,10 +72,7 @@ get_header(); ?>
 			<?php endif; ?>
 		</div>
 
-		<div class="front-page-show-another">
-			<button type="button">Show me Another!</button>
-
-		</div>
+		
 	</main><!-- #main -->
 </div><!-- #primary -->
 
