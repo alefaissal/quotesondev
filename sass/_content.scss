@@ -273,6 +273,21 @@ body {
 
 }
 
+.archive-navigation-category{
+	a{
+		text-transform: capitalize;
+		text-decoration: none;
+		color: #64f864;
+
+		&:hover{
+			color: #00cc00;
+		}
+	}
+	.nav-previous{
+		text-align: left;
+	}
+}
+
 //page submit
 .quote-submission-wrapper {
 	label {

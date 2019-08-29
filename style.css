@@ -758,6 +758,16 @@ body {
   .archives-page a:hover {
     color: #00cc00; }
 
+.archive-navigation-category a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #64f864; }
+  .archive-navigation-category a:hover {
+    color: #00cc00; }
+
+.archive-navigation-category .nav-previous {
+  text-align: left; }
+
 .quote-submission-wrapper label {
   font-size: 20px;
   color: white; }
@@ -833,7 +843,7 @@ body {
     .error404 .four-page {
       text-align: center; } }
   .error404 .four-page img {
-    width: 80%; }
+    width: 60%; }
 
 .sticky {
   display: block; }

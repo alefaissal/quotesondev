@@ -55,15 +55,18 @@ $source_url = get_post_meta(get_the_ID(), '_qod_quote_source_url', true);
 					<span class="source"></span>
 					<?php endif; ?>
 
-				</div><!-- .entry-header -->
+			</div><!-- .entry-header -->
 			</article><!-- #post-## -->
 			<?php endwhile; ?>
-			<?php //else : ?>
-			<?php //endif; ?>
-		</div>
+			
+		<div class="archive-navigation-category">
+			<?php if (have_posts()) : ?>
+				<?php the_posts_navigation(); ?>
+			<?php else : ?>
 
-		<?php //get_template_part( 'template-parts/content', 'none' ); 
-		?>
+			<?php get_template_part( 'template-parts/content', 'none' ); ?>
+			<?php endif ?>
+		</div>
 
 		<?php //endif; 
 		?>
