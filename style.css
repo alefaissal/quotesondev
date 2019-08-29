@@ -824,6 +824,9 @@ body {
     .single-navigation-post a:hover {
       color: #00cc00; }
 
+.single-post .button-single-post {
+  text-align: center; }
+
 .archive-page-title {
   font-size: 40px; }
   @media (min-width: 620px) {
