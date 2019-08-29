@@ -60,9 +60,7 @@ $source_url = get_post_meta(get_the_ID(), '_qod_quote_source_url', true);
 		</div>
 
 		<?php while (have_posts()) : the_post(); ?>
-		<div class='single-navigation-post'>
-			<?php the_post_navigation(); ?>
-		</div>
+		
 		<?php endwhile; // End of the loop. 
 		?>
 
