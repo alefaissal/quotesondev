@@ -613,11 +613,11 @@ body {
         width: 100%;
         margin: 0 auto; }
         .front-page-content .front-page-text:before {
-          content: "\f10d";
+          content: '\f10d';
           left: -160px;
           top: 0; }
         .front-page-content .front-page-text:after {
-          content: "\f10e";
+          content: '\f10e';
           top: 0px;
           right: -160px; } }
   .front-page-content .front-page-author-meta {
@@ -844,6 +844,25 @@ body {
       text-align: center; } }
   .error404 .four-page img {
     width: 60%; }
+
+.search-results {
+  max-width: 1100px;
+  width: 800px;
+  margin: 50px auto;
+  text-align: left; }
+  .search-results .entry-title {
+    margin-bottom: 0; }
+    .search-results .entry-title a {
+      font-size: 20px;
+      text-decoration: none;
+      color: #64f864; }
+      .search-results .entry-title a:hover {
+        color: #00cc00; }
+  @media (min-width: 1080px) {
+    .search-results .main-navigation {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
 
 .sticky {
   display: block; }
