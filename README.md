@@ -22,8 +22,8 @@ Diferent CSS, but optimized as much as possible, to cover several number of page
 Customized 404 using an image made in canva.com
 
 
-![ScreenShot](themes/quotesondev/screenshot/screenshot01.png)
-![ScreenShot](themes/quotesondev/screenshot/screenshot02.png)
-![ScreenShot](themes/quotesondev/screenshot/screenshot03.png)
-![ScreenShot](themes/quotesondev/screenshot/screenshot04.png)
-![ScreenShot](themes/quotesondev/screenshot/screenshot05.png)
+![ScreenShot](screenshot/screenshot01.png)
+![ScreenShot](screenshot/screenshot02.png)
+![ScreenShot](screenshot/screenshot03.png)
+![ScreenShot](screenshot/screenshot04.png)
+![ScreenShot](screenshot/screenshot05.png)
